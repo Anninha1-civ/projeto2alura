@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do filme perfeito</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt=""> <p>Meu pai me pediu para escolher dois filmes para assistir: *Barbie* ou *Homem-Aranha*. Escolhi *Homem-Aranha* para a ação e *Barbie* para um toque de magia. A tarde no cinema foi perfeita, com aventuras e risos garantidos para todos!</p>
+            <button class="btn-proximo" data-proximo="1">Barbie </button>
+            <button class="btn-proximo" data-proximo="2">Homem-Aranha</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você escolhe Homem-Aranha, e compram os ingressos agora precisamos descidir se vamos assistir o filme em 3D ou não ?.</p>
+            <button class="btn-proximo" data-proximo="3">Escolher 3D com efeitos</button>
+            <button class="btn-proximo" data-proximo="4">Assistir 2D sem efeitos</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Escolhi assistir 3D para ter uma experiência nova , agora vamos escolher comer no BK ou MC</p>
+            <button class="btn-proximo" data-proximo="5">McDonald's</button>
+            <button class="btn-proximo" data-proximo="6">Burger King</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
